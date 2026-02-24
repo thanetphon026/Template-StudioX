@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Template] AURALIS | Premium Audio Experience</title>
+    <meta name="description"
+        content="AURALIS - Experience pure resonance with our premium audio collection. Hand-assembled studio-grade headphones and speakers.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syncopate:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="antialiased selection-black">
+
+    <nav
+        class="nav-fixed">
+        <a href="#" class="nav-logo">AURALIS</a>
+
+        <div class="nav-desktop">
+            <a href="#story" class="nav-link">Story</a>
+            <a href="#collection" class="nav-link">Collection</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <button id="mobile-menu-btn" class="nav-mobile-btn">
+            <svg id="icon-menu" class="icon-v1" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+            <svg id="icon-close" class="icon-v2"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+    </nav>
+
+    <div id="mobile-menu"
+        class="mobile-overlay">
+        <div class="mobile-stack">
+            <a href="#story"
+                class="mobile-link">Story</a>
+            <a href="#collection"
+                class="mobile-link">Collection</a>
+            <a href="#contact"
+                class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <section class="hero-full">
+        <div class="hero-img-box reveal">
+            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=2065&auto=format&fit=crop"
+                alt="Auralis Premium Headphones" class="full-img bw-hover" fetchpriority="high">
+        </div>
+
+        <div class="hero-content-box">
+            <h1 class="font-display hero-title reveal text-black" style="transition-delay: 0.1s;">PURE</h1>
+            <h1 class="font-display hero-title hero-shift reveal text-black" style="transition-delay: 0.3s;">
+                RESONANCE</h1>
+
+            <p class="hero-p reveal"
+                style="transition-delay: 0.5s;">
+                Immerse yourself in audiophile-grade soundscapes crafted from aerospace-grade materials.
+            </p>
+            <div class="hero-cta-box reveal" style="transition-delay: 0.6s;">
+                <a href="#collection" class="btn-outline">Explore Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story-sec">
+        <div class="story-grid">
+            <div class="story-spacer"></div>
+            <div class="story-content reveal">
+                <h2 class="font-display story-h2">Our Philosophy</h2>
+                <div class="story-text-stack">
+                    <p>We believe sound is not just heard, but <span class="felt-text">felt</span>.</p>
+                    <p class="story-sub">Every Auralis unit is hand-assembled in our studio,
+                        combining acoustic engineering with minimalist architecture to create timeless audio pieces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection" class="coll-sec">
+        <div class="coll-container">
+            <div class="coll-header reveal">
+                <h2 class="font-display coll-h2">Signature<br>Series</h2>
+                <p class="coll-tag">Limited Edition</p>
+            </div>
+
+            <div class="masonry">
+                <div class="masonry-item reveal">
+                    <div class="img-aspect aspect-3-4">
+                        <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=2080&auto=format&fit=crop"
+                            alt="Auralis Prism Speaker" class="full-img bw-hover" loading="lazy">
+                    </div>
+                    <div class="item-meta">
+                        <div>
+                            <h3 class="font-display item-h3">Auralis Prism</h3>
+                            <p class="item-p">Floorstanding Speaker — $2,400</p>
+                        </div>
+                        <span class="item-num">01</span>
+                    </div>
+                </div>
+
+                <div class="masonry-item reveal" style="transition-delay: 0.1s;">
+                    <div class="img-aspect aspect-square">
+                        <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1932&auto=format&fit=crop"
+                            alt="Auralis Echo Earbuds" class="full-img bw-hover" loading="lazy">
+                    </div>
+                    <div class="item-meta">
+                        <div>
+                            <h3 class="font-display item-h3">Auralis Echo</h3>
+                            <p class="item-p">True Wireless In-Ear — $250</p>
+                        </div>
+                        <span class="item-num">02</span>
+                    </div>
+                </div>
+
+                <div class="masonry-item reveal" style="transition-delay: 0.2s;">
+                    <div class="img-aspect aspect-4-5">
+                        <img src="https://images.unsplash.com/photo-1520170350707-b2da59970118?q=80&w=1965&auto=format&fit=crop"
+                            alt="Auralis Zenith Headphones" class="full-img bw-hover" loading="lazy">
+                    </div>
+                    <div class="item-meta">
+                        <div>
+                            <h3 class="font-display item-h3">Auralis Zenith</h3>
+                            <p class="item-p">Over-Ear Studio Headphones — $600</p>
+                        </div>
+                        <span class="item-num">03</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coll-footer reveal">
+                <a href="#contact" class="btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-sec">
+        <div class="tech-container">
+            <h2 class="font-display tech-h2 reveal">Technical Details</h2>
+
+            <div class="tech-list">
+                <div
+                    class="tech-row reveal">
+                    <div class="tech-label">
+                        Acoustic Engine</div>
+                    <div class="tech-val">Custom-tuned beryllium drivers for
+                        ultra-low distortion.</div>
+                    <div class="tech-meta">Freq: 5Hz - 40kHz
+                    </div>
+                </div>
+                <div
+                    class="tech-row reveal">
+                    <div class="tech-label">
+                        Connectivity</div>
+                    <div class="tech-val">Lossless wireless audio transmission
+                        with multi-point support.</div>
+                    <div class="tech-meta">Bluetooth 5.3 /
+                        aptX™ HD</div>
+                </div>
+                <div
+                    class="tech-row reveal">
+                    <div class="tech-label">
+                        Architecture</div>
+                    <div class="tech-val">Aerospace-grade aluminum chassis with
+                        memory foam isolation.</div>
+                    <div class="tech-meta">Weight: 285g
+                    </div>
+                </div>
+                <div
+                    class="tech-row reveal">
+                    <div class="tech-label">Power
+                    </div>
+                    <div class="tech-val">Extended playback time with rapid charge
+                        capabilities.</div>
+                    <div class="tech-meta">Up to 40 Hours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-sec">
+        <div class="contact-wrap">
+            <div class="reveal">
+                <h2 class="font-display contact-h2">
+                    Experience<br>Auralis</h2>
+
+                <div
+                    class="contact-grid">
+                    <div class="contact-left">
+                        <p class="contact-tag">Flagship Studio</p>
+                        <p>99 Soundscape Boulevard,</p>
+                        <p>Creative District,</p>
+                        <p>Bangkok, Thailand 10110</p>
+                    </div>
+
+                    <div class="contact-pipe"></div>
+
+                    <div class="contact-right">
+                        <p class="contact-tag">Direct Contact</p>
+                        <p class="link-hover">hello@auralis-audio.com</p>
+                        <p class="link-hover">+66 2 987 6543</p>
+                    </div>
+                </div>
+
+                <div class="social-box">
+                    <a href="mailto:hello@auralis-audio.com"
+                        class="social-link"
+                        aria-label="Email">
+                        <svg class="social-svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                        </svg>
+                    </a>
+                    <a href="#"
+                        class="social-link"
+                        aria-label="Facebook">
+                        <svg class="social-svg" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        class="footer-box">
+        <a href="https://portfolio-demo-eight.vercel.app" target="_blank" class="footer-copy">
+            2026 AURALIS AUDIO. ALL RIGHTS RESERVED. DESIGNED BY THANETPHON026
+        </a>
+    </footer>
+
+    <a href="https://portfolio-demo-eight.vercel.app/" target="_blank" rel="noopener noreferrer" class="watermark">
+        <span class="pulse-icon">
+            <span class="pulse-ring"></span>
+            <span class="pulse-dot"></span>
+        </span>
+        Live Demo <span class="watermark-by">by</span> thanetphon026
+    </a>
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

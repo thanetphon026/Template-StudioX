@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="DemoSolar - บริการติดตั้งโซลาร์เซลล์ครบวงจรสำหรับบ้านและธุรกิจ ช่วยลดค่าไฟคืนทุนไวโดยทีมวิศวกรผู้เชี่ยวชาญ">
+    <title>[Template] DemoSolar - บริการติดตั้งโซลาร์เซลล์ครบวงจร</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo">
+                    <span id="nav-logo-text">DemoSolar</span>
+                </a>
+                <div class="nav-links desktop-only">
+                    <a href="#why-us">ทำไมต้องเลือกเรา</a>
+                    <a href="#products">บริการของเรา</a>
+                    <a href="#calculator">ประเมินราคา</a>
+                    <a href="#faq">คำถามที่พบบ่อย</a>
+                    <a href="#contact" class="btn btn-accent shadow">ติดต่อสำรวจหน้างาน</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="mobile-only">
+                    <button id="mobile-menu-btn" aria-label="Toggle menu">
+                        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#why-us">ทำไมต้องเลือกเรา</a>
+            <a href="#products">บริการของเรา</a>
+            <a href="#calculator">ประเมินราคา</a>
+            <a href="#faq">คำถามที่พบบ่อย</a>
+            <a href="#contact" class="highlight">ติดต่อสำรวจหน้างานฟรี</a>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero">
+        <!-- Background Image -->
+        <div class="hero-bg-wrapper">
+            <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=1920&auto=format,compress&fm=webp"
+                alt="บ้านติดตั้งโซลาร์เซลล์" class="hero-img" fetchpriority="high" width="1920" height="1080">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">
+                    <i class="fa-solid fa-house-circle-check" aria-hidden="true"></i>
+                    บริการติดตั้งโซลาร์เซลล์สำหรับบ้านและธุรกิจ
+                </span>
+                <h1 class="hero-title">
+                    ลดค่าไฟให้บ้านคุณ<br />
+                    ด้วยระบบ <span class="text-accent">Solar Roof</span> มาตรฐานวิศวกรรม
+                </h1>
+                <p class="hero-subtitle">
+                    คุ้มค่าตั้งแต่เดือนแรกที่ติดตั้ง คืนทุนไว ดูแลครบวงจรตั้งแต่การสำรวจ ประเมินราคา
+                    ไปจนถึงการขออนุญาตจากการไฟฟ้า
+                </p>
+                <div class="hero-actions">
+                    <a href="#calculator" class="btn btn-accent btn-lg shadow">
+                        ประเมินค่าไฟที่ลดได้เบื้องต้น
+                    </a>
+                    <a href="#contact" class="btn btn-outline btn-lg">
+                        ปรึกษาวิศวกรฟรี
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Why Choose Us -->
+    <section id="why-us" class="section bg-white">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-primary">ทำไมต้องติดตั้งกับ DemoSolar</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle mt-4">เราไม่ใช่แค่คนขายอุปกรณ์
+                    แต่เราคือทีมวิศวกรที่พร้อมดูแลระบบไฟฟ้าให้บ้านคุณในระยะยาว</p>
+            </div>
+
+            <div class="grid grid-3">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-hard-hat" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">ทีมวิศวกรผู้เชี่ยวชาญ</h3>
+                    <p class="feature-desc">ออกแบบระบบและควบคุมการติดตั้งโดยวิศวกรไฟฟ้าที่มีใบอนุญาต (กว.) ปลอดภัย
+                        ถูกต้องตามมาตรฐาน วสท.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">จัดการเอกสารครบวงจร</h3>
+                    <p class="feature-desc">ไม่ต้องปวดหัวเรื่องเอกสาร เราดำเนินการขออนุญาต อปท., กฟน./กฟภ. และ ERC
+                        ให้ทั้งหมดจนจบกระบวนการ</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="feature-title">รับประกันและดูแลหลังการขาย</h3>
+                    <p class="feature-desc">รับประกันการติดตั้ง 2 ปี รับประกันอินเวอร์เตอร์ 10 ปี
+                        และรับประกันประสิทธิภาพแผงยาวนานถึง 25 ปี พร้อมบริการล้างแผงฟรี</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Our Services & Equipment -->
+    <section id="products" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-primary">อุปกรณ์มาตรฐานระดับสากล (Tier 1)</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle mt-4">เราเลือกใช้อุปกรณ์จากแบรนด์ชั้นนำที่ได้รับการยอมรับทั่วโลก
+                    เพื่อความเสถียรและความปลอดภัยสูงสุด</p>
+            </div>
+
+            <div class="grid grid-3">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=800&auto=format,compress&fm=webp"
+                            alt="แผงโซลาร์เซลล์" loading="lazy" decoding="async" width="800" height="533">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">แผงโซลาร์เซลล์ (Solar Panels)</h3>
+                        <p class="product-desc">แผงชนิด Monocrystalline Half-Cell เทคโนโลยีล่าสุด
+                            ผลิตไฟได้ดีแม้มีแดดน้อย ทนทานต่อสภาพอากาศเมืองไทย รับประกันประสิทธิภาพ 25 ปี</p>
+                        <ul class="product-features">
+                            <li><i class="fa-solid fa-check text-leaf" aria-hidden="true"></i> แบรนด์ Tier 1 ระดับโลก
+                            </li>
+                            <li><i class="fa-solid fa-check text-leaf" aria-hidden="true"></i> ขนาด 550W - 600W+ ต่อแผง
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format,compress&fm=webp"
+                            alt="อินเวอร์เตอร์" loading="lazy" decoding="async" width="800" height="533">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">อินเวอร์เตอร์ (Inverter)</h3>
+                        <p class="product-desc">หัวใจหลักในการแปลงกระแสไฟฟ้า เราใช้รุ่นที่ทนทาน ระบายความร้อนได้ดี
+                            พร้อมระบบตัดไฟอัตโนมัติเมื่อเกิดความผิดปกติ</p>
+                        <ul class="product-features">
+                            <li><i class="fa-solid fa-check text-leaf" aria-hidden="true"></i> รองรับระบบ On-Grid /
+                                Hybrid</li>
+                            <li><i class="fa-solid fa-check text-leaf" aria-hidden="true"></i>
+                                ดูยอดผลิตไฟผ่านแอปบนมือถือได้</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format,compress&fm=webp"
+                            alt="งานติดตั้งโซลาร์เซลล์" loading="lazy" decoding="async" width="800" height="533">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">มาตรฐานการติดตั้ง</h3>
+                        <p class="product-desc">การเดินสายไฟและติดตั้งโครงสร้างบนหลังคา ทำอย่างระมัดระวัง
+                            ไม่ทำให้หลังคารั่วซึม เก็บสายไฟเรียบร้อยสวยงาม</p>
+                        <ul class="product-features">
+                            <li><i class="fa-solid fa-check text-leaf" aria-hidden="true"></i>
+                                โครงสร้างอลูมิเนียมกันสนิม</li>
+                            <li><i class="fa-solid fa-check text-leaf" aria-hidden="true"></i> ตู้ไฟ (Combiner Box)
+                                มาตรฐานสูง</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Simple Savings Calculator -->
+    <section id="calculator" class="section bg-primary text-white">
+        <div class="container calculator-container">
+            <div class="calculator-flex">
+
+                <div class="calculator-form-area">
+                    <h2 class="calc-title">ลองประเมินความคุ้มค่า</h2>
+                    <p class="calc-subtitle">เพียงกรอกค่าไฟฟ้าต่อเดือนของคุณ
+                        ระบบจะคำนวณขนาดติดตั้งที่เหมาะสมและยอดเงินที่คุณจะประหยัดได้โดยประมาณ</p>
+
+                    <div class="calc-box">
+                        <div class="form-group">
+                            <label for="monthly-bill">ค่าไฟบ้านคุณเฉลี่ยเดือนละเท่าไหร่? (บาท)</label>
+                            <div class="input-wrapper">
+                                <span class="input-prefix">฿</span>
+                                <input type="number" id="monthly-bill" class="form-control" placeholder="เช่น 5000"
+                                    value="5000">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="usage-type">ลักษณะการใช้ไฟส่วนใหญ่</label>
+                            <select id="usage-type" class="form-control cursor-pointer">
+                                <option value="0.6">ใช้ไฟกลางวันเป็นหลัก (ออฟฟิศ, ร้านค้า, คนอยู่บ้าน)</option>
+                                <option value="0.4">ใช้ไฟกลางวันและกลางคืนพอๆ กัน</option>
+                                <option value="0.25">ใช้ไฟกลางคืนเป็นหลัก (ทำงานนอกบ้าน)</option>
+                            </select>
+                        </div>
+
+                        <button onclick="calculateSavings()" class="btn btn-accent btn-full btn-lg">
+                            คำนวณยอดประหยัด
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Output Results -->
+                <div class="calculator-result-area">
+                    <div class="result-box">
+                        <h4 class="result-header">ผลการประเมินเบื้องต้น</h4>
+
+                        <div class="result-details">
+                            <div class="result-item">
+                                <p class="result-label">ประหยัดค่าไฟได้ประมาณ</p>
+                                <div class="result-value-group">
+                                    <span id="monthly-save" class="result-value-main text-leaf">3,000</span>
+                                    <span class="result-value-unit">บาท / เดือน</span>
+                                </div>
+                            </div>
+
+                            <div class="result-item mt-4">
+                                <p class="result-label">ประหยัดได้ต่อปี</p>
+                                <div class="result-value-group">
+                                    <span class="result-value-sub">฿<span id="yearly-save">36,000</span></span>
+                                </div>
+                            </div>
+
+                            <div class="roi-box mt-4">
+                                <p>ระยะเวลาคืนทุนโดยประมาณ: <strong>4 - 5 ปี</strong></p>
+                            </div>
+                        </div>
+
+                        <p class="disclaimer-text mt-4">* นี่คือการประเมินเบื้องต้นสำหรับการติดตั้งระบบ On-Grid
+                            (ไม่มีแบตเตอรี่) ตัวเลขจริงขึ้นอยู่กับพื้นที่หลังคา ทิศทางแสงแดด และพฤติกรรมการใช้ไฟ</p>
+
+                        <!-- คำอธิบายสูตรคำนวณ -->
+                        <div class="formula-box mt-4">
+                            <h5 class="formula-title"><i class="fa-solid fa-calculator"
+                                    aria-hidden="true"></i>สูตรและวิธีคำนวณ</h5>
+                            <p class="mb-2"><strong>ยอดประหยัดรายเดือน</strong> = ค่าไฟปัจจุบัน &times;
+                                สัดส่วนการใช้ไฟกลางวัน</p>
+                            <ul class="formula-list">
+                                <li><i class="fa-solid fa-caret-right text-accent" aria-hidden="true"></i>
+                                    <strong>ใช้กลางวันเป็นหลัก:</strong> ประหยัดไฟ 60% (นำค่าไฟ &times; 0.6)</li>
+                                <li><i class="fa-solid fa-caret-right text-accent" aria-hidden="true"></i>
+                                    <strong>ใช้พอๆ กัน:</strong> ประหยัดไฟ 40% (นำค่าไฟ &times; 0.4)</li>
+                                <li><i class="fa-solid fa-caret-right text-accent" aria-hidden="true"></i>
+                                    <strong>ใช้กลางคืนเป็นหลัก:</strong> ประหยัดไฟ 25% (นำค่าไฟ &times; 0.25)</li>
+                            </ul>
+                            <p><strong>ยอดประหยัดรายปี</strong> = ยอดประหยัดรายเดือน &times; 12 เดือน</p>
+                        </div>
+
+                        <div class="text-center mt-6">
+                            <a href="#contact" class="consult-link">
+                                สนใจให้วิศวกรเข้าประเมินพื้นที่จริง (ฟรี)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FAQs -->
+    <section id="faq" class="section bg-white">
+        <div class="container container-sm">
+            <div class="section-header">
+                <h2 class="section-title text-primary">คำถามที่พบบ่อย (FAQ)</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">บ้านแบบไหนคุ้มที่จะติดโซลาร์เซลล์?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-content">
+                            <p>บ้านหรือโฮมออฟฟิศที่มีค่าไฟตั้งแต่ 3,000 บาท/เดือน ขึ้นไป
+                                และมีการใช้ไฟฟ้าในช่วงเวลากลางวัน (8:00 - 17:00 น.) เช่น เปิดแอร์ ตู้เย็น เครื่องจักร
+                                จะเห็นความคุ้มค่าและคืนทุนได้เร็วที่สุดครับ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">หลังคารั่วไหม? น้ำจะซึมเข้าบ้านหรือเปล่า?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-content">
+                            <p>ทีมช่างของเราใช้อุปกรณ์ยึดหลังคาที่ออกแบบมาเฉพาะสำหรับหลังคาแต่ละประเภท (Mounting)
+                                และมีการซีลกันซึมด้วยซิลิโคนเกรดภายนอกอย่างดี
+                                มั่นใจได้ว่าไม่มีปัญหารั่วซึมจากการติดตั้งครับ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">ไฟดับ โซลาร์เซลล์ยังใช้งานได้ไหม?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-content">
+                            <p>สำหรับระบบ On-grid (ไม่มีแบตเตอรี่) ซึ่งเป็นระบบที่นิยมที่สุด หากไฟจากการไฟฟ้าดับ
+                                ระบบโซลาร์จะหยุดทำงานอัตโนมัติเพื่อความปลอดภัยของเจ้าหน้าที่การไฟฟ้าที่อาจกำลังซ่อมแซมสายไฟครับ
+                                หากต้องการให้มีไฟใช้ตอนไฟดับ ต้องติดตั้งระบบ Hybrid ที่มีแบตเตอรี่ร่วมด้วย</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">ต้องขออนุญาตใครไหม ก่อนติดตั้ง?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon" aria-hidden="true"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-content">
+                            <p>การติดตั้งที่ถูกต้องตามกฎหมายต้องมีการขออนุญาต 3 ส่วน คือ 1. เขต/เทศบาล (ดัดแปลงอาคาร) 2.
+                                การไฟฟ้า (กฟน./กฟภ. เพื่อขนานไฟ) 3. คณะกรรมการกำกับกิจการพลังงาน (ERC)
+                                ซึ่งทางบริษัทเราจะเป็นผู้ดำเนินการเดินเรื่องเอกสารให้ลูกค้าทั้งหมดครับ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="grid grid-3 footer-grid">
+                <!-- Brand Info -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span>DemoSolar</span>
+                    </div>
+                    <p class="footer-desc">
+                        บริษัท เดโม่ โซลาร์ เอ็นจิเนียริ่ง จำกัด (บริษัทสมมติ)<br>
+                        ผู้เชี่ยวชาญด้านการออกแบบและติดตั้งระบบผลิตไฟฟ้าพลังงานแสงอาทิตย์บนหลังคา (Solar Rooftop)
+                        มาตรฐานวิศวกรรม
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"
+                                aria-hidden="true"></i></a>
+                        <a href="#" class="social-icon line-icon" aria-label="Line"><i class="fa-brands fa-line"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">บริการของเรา</h4>
+                    <ul class="footer-links">
+                        <li><i class="fa-solid fa-angle-right text-primary" aria-hidden="true"></i> ติดตั้ง Solar
+                            Rooftop สำหรับบ้าน</li>
+                        <li><i class="fa-solid fa-angle-right text-primary" aria-hidden="true"></i> ติดตั้ง Solar
+                            สำหรับโรงงาน/อาคารธุรกิจ</li>
+                        <li><i class="fa-solid fa-angle-right text-primary" aria-hidden="true"></i>
+                            บริการล้างแผงและบำรุงรักษาระบบ (PM)</li>
+                        <li><i class="fa-solid fa-angle-right text-primary" aria-hidden="true"></i> บริการขออนุญาตขนานไฟ
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">ติดต่อสอบถาม / นัดประเมินหน้างาน</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                            <span>999/9 ถนนสมมติ แขวงตัวอย่าง เขตเมืองสมมติ กรุงเทพฯ 00000</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            <span class="phone-number">02-000-0000</span>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-line text-green" aria-hidden="true"></i>
+                            <span>@demosolar_mock (มี @ ด้านหน้า)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <a href="https://portfolio-demo-eight.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="copyright-link">
+                <p>&copy; 2026 DemoSolar Engineering Co., Ltd. (Mockup). All rights reserved. Designed by thanetphon026
+                </p>
+            </a>
+        </div>
+    </footer>
+
+    <!-- ลายน้ำ (Watermark) แสดงมุมขวาล่าง -->
+    <a href="https://portfolio-demo-eight.vercel.app/" target="_blank" rel="noopener noreferrer" class="watermark">
+        <span class="pulse-icon">
+            <span class="pulse-ring"></span>
+            <span class="pulse-dot"></span>
+        </span>
+        Live Demo <span class="watermark-by">by</span> thanetphon026
+    </a>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
