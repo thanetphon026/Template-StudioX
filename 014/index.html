@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="MAISON — Discover curated fashion collections from the world's most exciting designers. Trendy, bold, unapologetic style.">
+    <title>MAISON | Fashion Boutique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p><i class="fas fa-truck-fast"></i> Free shipping on orders over $150 — <strong>Shop Now</strong></p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="#hero" class="nav-logo">MAISON</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#lookbook">Lookbook</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1400&q=80" alt="Fashion collection"
+            class="hero-bg">
+        <div class="hero-content">
+            <p class="hero-season">Spring / Summer 2026</p>
+            <h1 class="hero-title">Define Your <em>Style</em></h1>
+            <p class="hero-subtitle">Bold silhouettes. Sustainable fabrics. Uncompromising elegance.</p>
+            <div class="hero-actions">
+                <a href="#new-arrivals" class="btn btn-primary">Shop Collection</a>
+                <a href="#lookbook" class="btn btn-outline">View Lookbook</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Strip -->
+    <section class="categories">
+        <div class="container">
+            <div class="category-strip">
+                <a href="#" class="category-item">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=300&q=80"
+                            alt="Dresses">
+                    </div>
+                    <span>Dresses</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&q=80"
+                            alt="Outerwear">
+                    </div>
+                    <span>Outerwear</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1560243563-062bfc001d68?w=300&q=80"
+                            alt="Accessories">
+                    </div>
+                    <span>Accessories</span>
+                </a>
+                <a href="#" class="category-item">
+                    <div class="category-img">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&q=80" alt="Shoes">
+                    </div>
+                    <span>Shoes</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals - Masonry -->
+    <section class="new-arrivals" id="new-arrivals">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Just In</p>
+                <h2 class="section-title">New <em>Arrivals</em></h2>
+                <p class="section-subtitle">Curated pieces for the season ahead</p>
+            </div>
+            <div class="masonry-grid">
+                <div class="masonry-item masonry-tall">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
+                                alt="Silk Midi Dress">
+                            <span class="product-badge">New</span>
+
+                            <div class="product-overlay">
+                                <a href="#" class="btn btn-primary btn-sm">Quick Add</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Silk Midi Dress</h3>
+                            <p class="product-price">$245</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600&q=80"
+                                alt="Tailored Blazer">
+
+                            <div class="product-overlay">
+                                <a href="#" class="btn btn-primary btn-sm">Quick Add</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Tailored Wool Blazer</h3>
+                            <p class="product-price">$380</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80"
+                                alt="Leather Bag">
+                            <span class="product-badge badge-hot">Hot</span>
+
+                            <div class="product-overlay">
+                                <a href="#" class="btn btn-primary btn-sm">Quick Add</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Italian Leather Tote</h3>
+                            <p class="product-price">$520</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item masonry-tall">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
+                                alt="Evening Gown">
+
+                            <div class="product-overlay">
+                                <a href="#" class="btn btn-primary btn-sm">Quick Add</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Velvet Evening Gown</h3>
+                            <p class="product-price">$680</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80"
+                                alt="Designer Heels">
+                            <span class="product-badge badge-sale">-30%</span>
+
+                            <div class="product-overlay">
+                                <a href="#" class="btn btn-primary btn-sm">Quick Add</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Designer Stiletto Heels</h3>
+                            <p class="product-price"><span class="price-old">$360</span> $252</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=600&q=80"
+                                alt="Cashmere Sweater">
+
+                            <div class="product-overlay">
+                                <a href="#" class="btn btn-primary btn-sm">Quick Add</a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Cashmere Knit Sweater</h3>
+                            <p class="product-price">$195</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="#" class="btn btn-outline-dark">View All New Arrivals <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-overlay"></div>
+        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1400&q=80" alt="Summer collection"
+            class="banner-bg">
+        <div class="banner-content">
+            <p class="banner-label">Limited Edition</p>
+            <h2 class="banner-title">Summer Capsule Collection</h2>
+            <p class="banner-text">12 essential pieces designed for effortless summer elegance</p>
+            <a href="#" class="btn btn-primary">Discover Now</a>
+        </div>
+    </section>
+
+    <!-- Store Story -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-images">
+                    <div class="story-img-main">
+                        <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=700&q=80"
+                            alt="MAISON boutique interior">
+                    </div>
+                    <div class="story-img-accent">
+                        <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=400&q=80"
+                            alt="Boutique details">
+                    </div>
+                </div>
+                <div class="story-content">
+                    <p class="section-label">Our Story</p>
+                    <h2 class="section-title">Where Fashion Meets <em>Purpose</em></h2>
+                    <p>Founded in 2018, MAISON began as a small atelier in Paris with a singular vision: to create
+                        fashion that empowers. Every piece in our collection is ethically sourced and crafted by
+                        artisans who share our passion for excellence.</p>
+                    <p>Today, we dress confident individuals across 40 countries — always staying true to our roots of
+                        quality, sustainability, and bold self-expression.</p>
+                    <div class="story-stats">
+                        <div class="stat">
+                            <span class="stat-number">40+</span>
+                            <span class="stat-label">Countries</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">120K</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Ethical Sourcing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collections -->
+    <section class="collections" id="collections">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Explore</p>
+                <h2 class="section-title">Shop by <em>Collection</em></h2>
+            </div>
+            <div class="collections-grid">
+                <a href="#" class="collection-card collection-card-large">
+                    <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80"
+                        alt="Evening Wear">
+                    <div class="collection-overlay">
+                        <h3>Evening Wear</h3>
+                        <span>38 Pieces <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="collection-card">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=600&q=80"
+                        alt="Casual Chic">
+                    <div class="collection-overlay">
+                        <h3>Casual Chic</h3>
+                        <span>52 Pieces <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="collection-card">
+                    <img src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=600&q=80" alt="Resort Wear">
+                    <div class="collection-overlay">
+                        <h3>Resort Wear</h3>
+                        <span>24 Pieces <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Assistance</p>
+                <h2 class="section-title">Common <em>Questions</em></h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I find my size?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide a detailed Size Guide on every product page. If you are between sizes, we
+                            recommend sizing up for a relaxed fit.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your return policy?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer free returns within 30 days of purchase. Items must be in their original condition
+                            with tags attached.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is your packaging sustainable?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all MAISON orders are shipped in 100% compostable or recyclable packaging to minimize
+                            our environmental footprint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="lookbook">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join the MAISON World</h2>
+                <p>Be the first to discover new arrivals, exclusive events, and style inspiration.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-note">Unsubscribe anytime. We respect your privacy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">MAISON</a>
+                    <p>Fashion with purpose. Crafted for individuality.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <a href="#">New Arrivals</a>
+                    <a href="#">Best Sellers</a>
+                    <a href="#">Sale</a>
+                    <a href="#">Gift Cards</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <a href="#">Size Guide</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Returns</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <a href="#">Our Story</a>
+                    <a href="#">Sustainability</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><a href="https://portfolio-demo-eight.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        style="color: inherit; text-decoration: none;">&copy; 2026 MAISON. All rights reserved. Designed
+                        by thanetphon026</a></p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Watermark -->
+    <a href="https://portfolio-demo-eight.vercel.app/" target="_blank" rel="noopener noreferrer" class="demo-watermark">
+        <span class="pulse-dot"></span>
+        Live Demo by <span class="demo-watermark-author">thanetphon026</span>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
